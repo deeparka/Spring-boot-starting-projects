@@ -1,0 +1,14 @@
+package com.eurekafeign.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+public class FeignClientController {
+	
+		// When we define a fallback-method, the fallback-method must match the same parameters of the method where you define the Hystrix Command using the hystrix-command annotation.
+		public ResponseEntity<String> defaultResponse(String err) {
+			System.out.println("Not able to convert currency as microservice is down.");
+			err = "Fallback error as the microservice is down.";
+			return new ResponseEntity<String>(err, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+}

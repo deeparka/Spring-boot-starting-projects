@@ -1,0 +1,11 @@
+package com.eurekafeign.controller;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@FeignClient(name = "conversion")
+public interface MoneyConversionClient {
+	@GetMapping(value= "/convert/money/{count}")
+	public String getResult(@PathVariable(name= "count") double count);
+}

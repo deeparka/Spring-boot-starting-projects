@@ -1,0 +1,29 @@
+package com.mvc.controller;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.mvc.controller.RegisterBean;
+
+public class RegisterController {
+	@RequestMapping(value = "/submitRegisterForm", method = RequestMethod.GET)
+	public String init(Model model) {
+		model.addAttribute("msg", "Please Enter Your Login Details");
+		return "submitRegisterForm";
+	}
+
+	@RequestMapping(method = RequestMethod.POST)
+	public String login(Model model, @ModelAttribute("loginBean") LogInBean loginBean) {
+		if (loginBean != null && loginBean.getUsername() != null && loginBean.getPassword() != null
+				&& loginBean.get) {
+				model.addAttribute("username", loginBean.getUsername());
+				model.addAttribute("loginText", "You are successfully logged in");
+				return "success";
+			} else {
+				model.addAttribute("error", "Please enter Details");
+				return "submitRegisterForm";
+		}
+	}
+}

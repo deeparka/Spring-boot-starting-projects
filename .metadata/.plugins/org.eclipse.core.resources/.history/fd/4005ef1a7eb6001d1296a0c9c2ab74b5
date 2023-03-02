@@ -1,0 +1,10 @@
+package com.example.bean;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="books")
+public class Book {
+
+}

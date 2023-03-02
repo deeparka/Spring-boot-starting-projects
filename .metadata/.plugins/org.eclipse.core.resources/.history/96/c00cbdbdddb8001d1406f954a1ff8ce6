@@ -1,0 +1,13 @@
+package com.eurekaety;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EurekaEurOtoYenApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EurekaEurOtoYenApplication.class, args);
+	}
+
+}
