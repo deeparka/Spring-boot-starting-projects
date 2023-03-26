@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="C:\Users\ASUS\Documents\Spring 4.17.2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\ASUS\Documents\Spring 4.17.2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringRestExample" path="/SpringRestExample" reloadable="true" source="org.eclipse.jst.jee.server:SpringRestExample"/></Host>
+      <Context docBase="C:\Users\ASUS\Documents\Spring 4.17.2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\ASUS\Documents\Spring 4.17.2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringRestExample" path="/SpringRestExample" reloadable="true" source="org.eclipse.jst.jee.server:SpringRestExample"/><Context docBase="C:\Users\ASUS\Documents\Spring 4.17.2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Spring3HibernateIntegration" path="/Spring3HibernateIntegration" reloadable="true" source="org.eclipse.jst.jee.server:Spring3HibernateIntegration"/></Host>
     </Engine>
   </Service>
 </Server>

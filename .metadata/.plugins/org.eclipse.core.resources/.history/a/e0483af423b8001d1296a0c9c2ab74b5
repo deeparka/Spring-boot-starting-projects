@@ -1,3 +1,0 @@
-server.port=818
-spring.application.name=sprinfbootrest
-eureka.client.serviceUrl.defaultZone=http://localhost:7171/eureka/

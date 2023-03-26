@@ -1,6 +1,0 @@
-package com.eurekafeign.controller;
-
-@
-public interface MoneyConversionClient {
-
-}

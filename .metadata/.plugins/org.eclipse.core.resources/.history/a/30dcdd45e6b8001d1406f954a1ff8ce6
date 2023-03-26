@@ -1,3 +1,0 @@
-server.port=9197
-spring.application.name=greetingsinfofeignclient
-eureka.client.serviceUrl.defaultZone=http://localhost:7172/eureka/

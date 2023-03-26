@@ -6,6 +6,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\EY Spring programs\Spring3HibernateIntegration"/>
+			<item value="D:\EY Spring programs\Springcloudeurekaribbon"/>
+			<item value="D:\EY Spring programs\Springcloudnetfixhystrixtutorial"/>
+			<item value="D:\EY Spring programs\Springcloudzuulgateway"/>
+			<item value="D:\EY Spring programs\Springfeignclienttutorial"/>
 			<item value="D:\EY Spring programs\Springbooteurekaclientutorial"/>
 			<item value="D:\EY Spring programs\Springbooteurekaservertutorial"/>
 			<item value="D:\EY Spring programs\SpringORMwithTX"/>
@@ -16,11 +21,6 @@
 			<item value="D:\EY Spring programs\JUnit5\UsingJUnitAssertions"/>
 			<item value="D:\EY Spring programs\JUnit5\JUnit5Examples"/>
 			<item value="D:\EY Spring programs\Swagger\spring-boot-swagger2"/>
-			<item value="C:\Users\ASUS\Downloads\SpringFileUpload"/>
-			<item value="C:\Users\ASUS\Downloads\spring-boot-ssl"/>
-			<item value="D:\EY Spring programs\REST with Exception Handling\hello-world-spring-boot"/>
-			<item value="D:\EY Spring programs\REST\Spring-Boot-REST"/>
-			<item value="D:\EY Spring programs\REST\SpringBootRestfulCRUD"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

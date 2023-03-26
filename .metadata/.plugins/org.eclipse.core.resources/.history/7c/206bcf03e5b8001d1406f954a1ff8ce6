@@ -1,5 +1,0 @@
-package com.eurekafeign.controller;
-
-public class FeignClientController {
-
-}
